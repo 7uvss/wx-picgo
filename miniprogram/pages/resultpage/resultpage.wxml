@@ -1,0 +1,5 @@
+<!--miniprogram/pages/resultpage/resultpage.wxml-->
+<image src="{{tempImageUrl}}" mode="scaleToFill"></image>
+<text class="itemname">{{resultname}}</text>
+<text class="describe">{{describe}}</text>
+<button style='position:fixed;width:100%;bottom:0' bindtap="handleTrans">Translated To English</button>

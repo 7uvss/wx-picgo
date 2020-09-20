@@ -1,0 +1,21 @@
+/* miniprogram/pages/resultpage/resultpage.wxss */
+image{
+  filter: blur(3px);
+  width: 100%
+}
+
+.itemname{
+  font-size: 43px;
+  color: white;
+  position: absolute;
+  top: 160px;
+  left: 20px
+}
+.describe{
+  position: absolute;
+  top:250px;
+  font-size: 125%;
+  margin: 15px;
+  line-height: 50px;
+  letter-spacing: 150%
+}

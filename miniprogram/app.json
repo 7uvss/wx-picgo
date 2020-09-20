@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/today/today",
+    "pages/picgo/picgo",
+    "pages/nearby/nearby",
+    "pages/resultpage/resultpage"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "PicGo",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/today/today",
+        "text": "Today",
+        "iconPath": "icon/history.png",
+        "selectedIconPath": "icon/history.png"
+      },
+      {
+        "pagePath": "pages/picgo/picgo",
+        "text": "PicGo",
+        "iconPath": "icon/camera.png",
+        "selectedIconPath": "icon/camera.png"
+      },
+      {
+        "pagePath": "pages/nearby/nearby",
+        "text": "Nearby",
+        "iconPath": "icon/togo.png",
+        "selectedIconPath": "icon/togo.png"
+      }
+    ]
+  },
+  "permission":{
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

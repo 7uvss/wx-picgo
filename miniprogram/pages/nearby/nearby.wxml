@@ -1,0 +1,66 @@
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">Explore in Culture</view>
+    </view>
+    <view class="content">
+      <view class="desc">
+        <view class="text-content">Let's take a journey together.</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">Jinsha Site</view>
+    </view>
+    <view class="content">
+      <image src="../../images/jinsha.jpg" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content">Jinsha(Chinese: 金沙; pinyin: Jinsha) is an archaeological site in Chengdu,capital of China's Sichuan Province.</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">Museum</view>
+          <view class="cu-tag bg-green light sm round">Site</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">Du Fu Thatched Cottage</view>
+    </view>
+    <view class="content">
+      <image src="../../images/dufu.jpg" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content">Du Fu thatched cottage is China's largest, best preserved, most famous and most distinctive Du Fu trace site, with an annual tourist volume of more than one million people.</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">Museum</view>
+          <view class="cu-tag bg-green light sm round">Site</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">University Of Electronic Science And Technology Of China。</view>
+    </view>
+    <view class="content">
+      <image src="../../images/UESTC.jpg" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content">UESTC is a multi-disciplinary research-oriented national key university which covers the whole electronic discipline, with electronic information science and technology as the core, engineering as the main part, science and engineering as the penetration, and the coordinated development of science, engineering, management, literature and medicine. It is known as "the leader of China's electronic universities".</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">University</view>
+          <view class="cu-tag bg-green light sm round">School</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

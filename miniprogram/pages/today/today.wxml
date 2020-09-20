@@ -1,0 +1,6 @@
+<!--miniprogram/pages/today/today.wxml-->
+
+<view class="content">
+<image class='background' src="{{res.imgUrl}}" mode="aspectFill"></image>
+
+</view>
